@@ -16,7 +16,7 @@ foreach($questions as $index => $question)
 }
 
 //evaluate function
-function evaluateQuiz(array $questions, array $answers)
+function evaluateQuiz(array $questions, array $answers): int
 {
     $score = 0;
     foreach($questions as $index => $question)
